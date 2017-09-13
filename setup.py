@@ -2,7 +2,7 @@ import os
 from setuptools import setup, find_packages
 
 setup(
-    name=os.getenv('PKG_NAME', ''),
-    version=os.getenv('PKG_VERSION', ''),
-    packages=find_packages(exclude=['tests']),
+    name="testhac",
+    version="1.0.0",
+    packages=find_packages(),
     zip_safe=False)
