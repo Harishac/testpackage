@@ -1,6 +1,6 @@
 import os
 
-def main:
+def main():
   print os.getcwd()
   
 if __name__ == "__main__":
