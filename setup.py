@@ -4,7 +4,7 @@ def readme():
     with open('README.md') as f:
         return f.read()
 
-setup(name='hellon',
+setup(name='hello',
       version='0.1.0',
       description='test',
       url='https://github.com/Harishac/testpackage',
